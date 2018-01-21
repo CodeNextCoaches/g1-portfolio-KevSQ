@@ -1,12 +1,17 @@
+:root {
+	--mainText: #F40000;
+	--secondaryText: #52414C;
+}
+
 body {
 	margin: 0;
-	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('assets/blake.jpg');
-	background-size: 100vw 116vh;
+	background: #FFFBFE;
+	background-size: 100vw 120vh;
 }
 .hello {
 	margin-top: 7%;
 	text-align: center;
-	font-size: 130px;
+	font-size: 150px;
 	font-weight: bold;
 	font-family: 'Monsterrat', sans-serif;
 	letter-spacing: 10px;
@@ -91,7 +96,7 @@ body {
 }
 .bodytext {
 	font-size: 24px;
-	color: white;
+	color: var(--secondaryText);
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
