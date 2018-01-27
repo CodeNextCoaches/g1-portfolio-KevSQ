@@ -16,6 +16,7 @@ body {
 	font-family: 'Monsterrat', sans-serif;
 	letter-spacing: 10px;
 
+	transition: all 3s ease-in;
 }
 .container {
 	display: flex;
@@ -56,11 +57,9 @@ body {
 }
 
 .github {
-	margin-top: 5%;
 	width: 70px;
 	background-color: Transparent;
-	border-radius: 5px;
-    border: 2px solid #766766;
+    border: 2px solid #F40000;
     overflow: hidden;
     outline:none;
     font-size: 32px;
@@ -71,8 +70,8 @@ body {
     padding-right: 10px;
     align-self: center !important;
     text-decoration: none !important;
-    font-family: 'Amatic SC', cursive;
-    color: #B9AAAC;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #F40000;
 
 }
 
